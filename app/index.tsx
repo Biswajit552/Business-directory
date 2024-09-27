@@ -1,15 +1,8 @@
-import { Text, View } from "react-native";
+import { Link, Redirect } from "expo-router";
+import { ActivityIndicator, Alert, Button, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <Redirect href={'/home'} />
   );
 }
