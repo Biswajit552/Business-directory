@@ -4,7 +4,9 @@ import React from "react";
 export default function explore() {
   return (
     <View>
-      <Text>explore</Text>
+      <Text style={{ fontSize: 40, fontFamily: "outfit-medium", padding: 20 }}>
+        explore
+      </Text>
     </View>
   );
 }
